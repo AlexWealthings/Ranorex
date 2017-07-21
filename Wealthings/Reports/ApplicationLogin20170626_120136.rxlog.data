@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3aae89cc523d3a9"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="26/06/2017 12:01:43 PM"
+		timestampiso="2017-06-26T10:01:43"
+		timeoutfactor="1"
+		module="ApplicationLogin">
+		<detail>
+			ApplicationLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.616"
+			timeRelativeToTestModuleStartTime="00:00.616"
+			timeWallClock="12:01:44"
+			time="00:00.616"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://test.wealthings.net' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.763"
+			timeRelativeToTestModuleStartTime="00:00.763"
+			timeWallClock="12:01:44"
+			time="00:00.763"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.770"
+			timeRelativeToTestModuleStartTime="00:05.770"
+			timeWallClock="12:01:49"
+			time="00:05.770"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.982"
+			timeRelativeToTestModuleStartTime="00:05.982"
+			timeWallClock="12:01:49"
+			time="00:05.982"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 15s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.991"
+			timeRelativeToTestModuleStartTime="00:20.991"
+			timeWallClock="12:02:04"
+			time="00:20.991"
+			level="Info"
+			category="Keyboard"
+			errimg=".\Applicat_f098e45a_b8d0a3c4_trace.jpg"
+			errthumb=".\Applicat_f098e45a_b8d0a3c4_trace_thumb.jpg">
+			<message>
+				Key sequence '{Tab}dataart-for-test.use-only@wealthings.net{Tab}admin{Return}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.011"
+			timeRelativeToTestModuleStartTime="00:26.011"
+			timeWallClock="12:02:09"
+			time="00:26.011"
+			level="Info"
+			category="Validation"
+			errimg=".\Applicat_f098e45a_2e4f48f3_trace.jpg"
+			errthumb=".\Applicat_f098e45a_2e4f48f3_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'WealthingsCom.Root.Avatar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+				fullname="WealthingsRepository.WealthingsCom.Root.Avatar"
+				id="2176c5470f954429962efe93f1184a8d"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="104"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.745"
+			timeRelativeToTestModuleStartTime="00:38.745"
+			timeWallClock="12:02:22"
+			time="00:38.745"
+			level="Error"
+			category="User"
+			errimg=".\Applicat_f098e45a_de8470b4_trace.jpg"
+			errthumb=".\Applicat_f098e45a_de8470b4_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

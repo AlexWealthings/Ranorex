@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fd6c5732fcfd1d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="29/05/2017 10:05:35 AM"
+		timestampiso="2017-05-29T08:05:35"
+		timeoutfactor="1"
+		module="ApplicationLogin">
+		<detail>
+			ApplicationLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.585"
+			timeRelativeToTestModuleStartTime="00:00.585"
+			timeWallClock="10:05:36"
+			time="00:00.585"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://test.wealthings.net' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.701"
+			timeRelativeToTestModuleStartTime="00:00.701"
+			timeWallClock="10:05:36"
+			time="00:00.701"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Email' at 21;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//input[#'email']"
+				fullname="WealthingsRepository.WealthingsCom.Email"
+				id="1091eb87e93b43009f8f00e9dc8bbeab"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.935"
+			timeRelativeToTestModuleStartTime="00:12.935"
+			timeWallClock="10:05:48"
+			time="00:12.935"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'dataart-for-test.use-only@wealthings.net{Tab}admin{Return}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

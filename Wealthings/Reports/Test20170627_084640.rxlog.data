@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16f1e234a3894d58"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2966x1331"
+		timestamp="27/06/2017 8:46:47 AM"
+		timestampiso="2017-06-27T06:46:47"
+		timeoutfactor="1"
+		module="Test">
+		<detail>
+			Test
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.664"
+			timeRelativeToTestModuleStartTime="00:00.664"
+			timeWallClock="08:46:47"
+			time="00:00.664"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.ranorex.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Test.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.833"
+			timeRelativeToTestModuleStartTime="00:00.833"
+			timeWallClock="08:46:47"
+			time="00:00.833"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'TestAutomationForGUITestingRanore.RanorexTestAutomation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.ranorex.com']//div[#'main-nav']//a[@href='https://www.ranorex.com/']/img[@alt='Ranorex test automation']"
+				fullname="WealthingsRepository.TestAutomationForGUITestingRanore.RanorexTestAutomation"
+				id="8a178cf10f0643f8a6051e33a3739062"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Test.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.520"
+			timeRelativeToTestModuleStartTime="00:02.520"
+			timeWallClock="08:46:49"
+			time="00:02.520"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'RanorexTestAutomation' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.ranorex.com']//div[#'main-nav']//a[@href='https://www.ranorex.com/']/img[@alt='Ranorex test automation']"
+				fullname="WealthingsRepository.TestAutomationForGUITestingRanore.RanorexTestAutomation"
+				id="8a178cf10f0643f8a6051e33a3739062"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Test.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

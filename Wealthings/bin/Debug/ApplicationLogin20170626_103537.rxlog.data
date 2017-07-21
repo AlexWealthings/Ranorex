@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.82s"
+		durationms="14817"
+		type="root"
+		rid="19b452924693f460"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="26/06/2017 10:35:48 AM"
+		timestampiso="2017-06-26T08:35:48"
+		timeoutfactor="1"
+		module="ApplicationLogin">
+		<detail>
+			ApplicationLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.722"
+			timeRelativeToTestModuleStartTime="00:00.723"
+			timeWallClock="10:35:49"
+			time="00:00.722"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://test.wealthings.net' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.901"
+			timeRelativeToTestModuleStartTime="00:00.902"
+			timeWallClock="10:35:49"
+			time="00:00.901"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Email' at 21;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//input[#'email']"
+				fullname="WealthingsRepository.WealthingsCom.Email"
+				id="1091eb87e93b43009f8f00e9dc8bbeab"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.817"
+			timeRelativeToTestModuleStartTime="00:14.817"
+			timeWallClock="10:36:03"
+			time="00:14.817"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

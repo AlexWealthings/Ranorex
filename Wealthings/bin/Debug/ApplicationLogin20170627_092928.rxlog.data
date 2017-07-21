@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ac398f70c208248"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2966x1331"
+		timestamp="27/06/2017 9:29:34 AM"
+		timestampiso="2017-06-27T07:29:34"
+		timeoutfactor="1"
+		module="ApplicationLogin">
+		<detail>
+			ApplicationLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.590"
+			timeRelativeToTestModuleStartTime="00:00.590"
+			timeWallClock="09:29:34"
+			time="00:00.590"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://test.wealthings.net' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.739"
+			timeRelativeToTestModuleStartTime="00:00.739"
+			timeWallClock="09:29:35"
+			time="00:00.739"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.762"
+			timeRelativeToTestModuleStartTime="00:05.762"
+			timeWallClock="09:29:40"
+			time="00:05.762"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.975"
+			timeRelativeToTestModuleStartTime="00:05.975"
+			timeWallClock="09:29:40"
+			time="00:05.975"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 15s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.987"
+			timeRelativeToTestModuleStartTime="00:20.987"
+			timeWallClock="09:29:55"
+			time="00:20.987"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Tab}dataart-for-test.use-only@wealthings.net{Tab}admin{Return}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.031"
+			timeRelativeToTestModuleStartTime="00:26.031"
+			timeWallClock="09:30:00"
+			time="00:26.031"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'WealthingsCom.Avatar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+				fullname="WealthingsRepository.WealthingsCom.Avatar"
+				id="fe021f4533284b37a70e949ae41c81c5"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="104"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.733"
+			timeRelativeToTestModuleStartTime="00:27.733"
+			timeWallClock="09:30:02"
+			time="00:27.733"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Avatar' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+				fullname="WealthingsRepository.WealthingsCom.Avatar"
+				id="fe021f4533284b37a70e949ae41c81c5"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="105"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

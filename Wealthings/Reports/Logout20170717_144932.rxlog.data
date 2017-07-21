@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2f8593be2015d66b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="2966x1331"
+		timestamp="17/07/2017 2:49:39 PM"
+		timestampiso="2017-07-17T12:49:39"
+		timeoutfactor="1"
+		module="Logout">
+		<detail>
+			Logout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.783"
+			timeRelativeToTestModuleStartTime="00:00.784"
+			timeWallClock="14:49:39"
+			time="00:00.783"
+			level="Info"
+			category="Mouse"
+			errimg=".\Logout20_54760f81_d3ee084c_trace.jpg"
+			errthumb=".\Logout20_54760f81_d3ee084c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Avatar' at 19;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+				fullname="WealthingsRepository.WealthingsCom.Avatar"
+				id="fe021f4533284b37a70e949ae41c81c5"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Logout.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.765"
+			timeRelativeToTestModuleStartTime="00:05.766"
+			timeWallClock="14:49:44"
+			time="00:05.765"
+			level="Info"
+			category="Mouse"
+			errimg=".\Logout20_54760f81_15fccb24_trace.jpg"
+			errthumb=".\Logout20_54760f81_15fccb24_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.LogOut' at 34;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]/a[@href~'^http://test\.wealthings\.ne']/span[@innertext='Log out']"
+				fullname="WealthingsRepository.WealthingsCom.Root.LogOut"
+				id="aa8c61114f334287b7799a7a10a63c11"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Logout.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.216"
+			timeRelativeToTestModuleStartTime="00:21.216"
+			timeWallClock="14:50:00"
+			time="00:21.216"
+			level="Error"
+			category="User"
+			errimg=".\Logout20_54760f81_585aa6a8_trace.jpg"
+			errthumb=".\Logout20_54760f81_585aa6a8_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

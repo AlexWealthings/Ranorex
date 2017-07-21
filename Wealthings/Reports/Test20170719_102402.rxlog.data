@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2484f29c4755efa4"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="19/07/2017 10:24:07 AM"
+		timestampiso="2017-07-19T08:24:07"
+		timeoutfactor="1"
+		module="Test">
+		<detail>
+			Test
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.660"
+			timeRelativeToTestModuleStartTime="00:00.660"
+			timeWallClock="10:24:08"
+			time="00:00.660"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.IconContacts' at 16;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//nav/ul/li[7]/?/?/i"
+				fullname="WealthingsRepository.WealthingsCom.Root.IconContacts"
+				id="ce1776fcc89e4511abd172c4e627215b"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Test.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.710"
+			timeRelativeToTestModuleStartTime="00:09.710"
+			timeWallClock="10:24:17"
+			time="00:09.710"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ITag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Test.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.392"
+			timeRelativeToTestModuleStartTime="00:10.392"
+			timeWallClock="10:24:17"
+			time="00:10.392"
+			level="Warn"
+			category="Automation"
+			errimg=".\Test2017_93889fa3_ef3022a8_trace.jpg"
+			errthumb=".\Test2017_93889fa3_ef3022a8_trace_thumb.jpg">
+			<message>
+				Could not get a valid element rectangle from '{ITag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Test.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.776"
+			timeRelativeToTestModuleStartTime="00:10.776"
+			timeWallClock="10:24:18"
+			time="00:10.776"
+			level="Info"
+			category="Mouse"
+			errimg=".\Test2017_93889fa3_96bf9ae5_trace.jpg"
+			errthumb=".\Test2017_93889fa3_96bf9ae5_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WealthingsGoogleChrome.IntermediateD3DWindow' at 608;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Wealthings\ -\ Google\ Chrom']/element[@class='Intermediate D3D Window']"
+				fullname="WealthingsRepository.WealthingsGoogleChrome.IntermediateD3DWindow"
+				id="cfb1abd99afa48758727c96c4ff41fca"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Test.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.202"
+			timeRelativeToTestModuleStartTime="00:12.202"
+			timeWallClock="10:24:19"
+			time="00:12.202"
+			level="Error"
+			category="User"
+			errimg=".\Test2017_93889fa3_f05b1012_trace.jpg"
+			errthumb=".\Test2017_93889fa3_f05b1012_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

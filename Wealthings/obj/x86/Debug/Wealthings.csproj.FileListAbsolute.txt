@@ -1,0 +1,16 @@
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.rxtmg
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.rxtst
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.exe.config
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.exe
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.pdb
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\obj\x86\Debug\Wealthings.csprojResolveAssemblyReference.cache
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\obj\x86\Debug\Wealthings.exe
+C:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\obj\x86\Debug\Wealthings.pdb
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.rxtmg
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.rxtst
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.exe.config
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.exe
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\bin\Debug\Wealthings.pdb
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\obj\x86\Debug\Wealthings.csprojResolveAssemblyReference.cache
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\obj\x86\Debug\Wealthings.exe
+C:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\obj\x86\Debug\Wealthings.pdb

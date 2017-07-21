@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3dd8ded218e6a0b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="29/05/2017 9:13:43 AM"
+		timestampiso="2017-05-29T07:13:43"
+		timeoutfactor="1"
+		module="ApplicationLogin">
+		<detail>
+			ApplicationLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.711"
+			timeRelativeToTestModuleStartTime="00:00.711"
+			timeWallClock="09:13:44"
+			time="00:00.711"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://test.wealthings.net' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.816"
+			timeRelativeToTestModuleStartTime="00:00.816"
+			timeWallClock="09:13:44"
+			time="00:00.816"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 8s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.831"
+			timeRelativeToTestModuleStartTime="00:08.831"
+			timeWallClock="09:13:52"
+			time="00:08.831"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Email' at 21;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//input[#'email']"
+				fullname="WealthingsRepository.WealthingsCom.Email"
+				id="1091eb87e93b43009f8f00e9dc8bbeab"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.624"
+			timeRelativeToTestModuleStartTime="00:11.624"
+			timeWallClock="09:13:55"
+			time="00:11.624"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'alexander.teleki@wealthings.com{Tab}admin{Return}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

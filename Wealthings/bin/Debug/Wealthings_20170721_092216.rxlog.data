@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2029bdcda8e2c63c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="alex_"
+		rxversion="7.1.0.0"
+		host="GABI-SURFACEBOO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3000x2000"
+		timestamp="21/07/2017 9:22:16 AM"
+		timestampiso="2017-07-21T07:22:16"
+		endtime="21/07/2017 9:23:50 AM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.6m"
+			durationms="93658"
+			type="test-suite"
+			rid="114f36739d7356f8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Wealthings"
+			headertext="Wealthings"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.6m"
+				durationms="93638"
+				type="test-case"
+				rid="383385a1044e8a04"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				totalsuccesscount="1"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcontainername="Create_contact_error"
+				testcontainerid="e7c04d0c-e68a-4306-8d20-6acecd2443ac"
+				headertext="Create_contact_error"
+				displayName="Create_contact_error"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="RandomBinding">
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="169ms"
+					durationms="169"
+					type="test-module"
+					rid="cae874dc5144958"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="RandomGenerate"
+					displayName="RandomGenerate"
+					moduleid="5cacf438-02b7-4526-b47a-70b63f6f422f"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="Output"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.315"
+						timeRelativeToTestModuleStartTime="00:00.015"
+						timeWallClock="09:22:17"
+						time="00:00.315"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$Output = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.6m"
+					durationms="93469"
+					type="test-module"
+					rid="f7bfd0fa260cf80"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ApplicationLogin"
+					displayName="ApplicationLogin"
+					moduleid="ebd38998-115c-4542-85f7-2350c67792ad"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Element for item 'Avatar' does not exist (Failed to find item 'WealthingsRepository.WealthingsCom.Avatar'. No element found for path '/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]' within 1m.).
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.484"
+						timeRelativeToTestModuleStartTime="00:00.015"
+						timeWallClock="09:22:17"
+						time="00:00.484"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'https://test.wealthings.net' with browser 'Chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.769"
+						timeRelativeToTestModuleStartTime="00:00.300"
+						timeWallClock="09:22:17"
+						time="00:00.769"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 5s.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.883"
+						timeRelativeToTestModuleStartTime="00:05.413"
+						timeWallClock="09:22:22"
+						time="00:05.883"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Return}'.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.247"
+						timeRelativeToTestModuleStartTime="00:05.778"
+						timeWallClock="09:22:23"
+						time="00:06.247"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 20s.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="97"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.455"
+						timeRelativeToTestModuleStartTime="00:25.986"
+						timeWallClock="09:22:43"
+						time="00:26.455"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Tab}dataart-for-test.use-only@wealthings.net{Tab}Alexander1+{Return}'.
+						</message>
+						<metainfo
+							itemindex="5"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="100"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.834"
+						timeRelativeToTestModuleStartTime="00:32.365"
+						timeWallClock="09:22:49"
+						time="00:32.834"
+						level="Info"
+						category="Validation"
+						errimg="images_Wealthin_444e541a\Wealthin_444e541a_5bf2ea26_trace.jpg"
+						errthumb="images_Wealthin_444e541a\Wealthin_444e541a_5bf2ea26_trace_thumb.jpg">
+						<message>
+							Validating Exists on item 'WealthingsCom.Avatar'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+							fullname="WealthingsRepository.WealthingsCom.Avatar"
+							id="fe021f4533284b37a70e949ae41c81c5"
+							timeout="60000"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="104"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:33.371"
+						timeRelativeToTestModuleStartTime="01:32.902"
+						timeWallClock="09:23:50"
+						time="01:33.371"
+						level="Failure"
+						category="Validation"
+						errimg="images_Wealthin_444e541a\Wealthin_444e541a_8b954c04_trace.jpg"
+						errthumb="images_Wealthin_444e541a\Wealthin_444e541a_8b954c04_trace_thumb.jpg">
+						<message>
+							Element for item 'Avatar' does not exist (Failed to find item 'WealthingsRepository.WealthingsCom.Avatar'. No element found for path '/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]' within 1m.).
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+							fullname="WealthingsRepository.WealthingsCom.Avatar"
+							id="fe021f4533284b37a70e949ae41c81c5"
+							timeout="60000"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="105"
+							loglvl="Failure"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:33.534"
+						timeRelativeToTestModuleStartTime="01:33.065"
+						timeWallClock="09:23:50"
+						time="01:33.534"
+						level="Error"
+						category="Module"
+						errimg="images_Wealthin_444e541a\Wealthin_444e541a_ff4f7dde_trace.jpg"
+						errthumb="images_Wealthin_444e541a\Wealthin_444e541a_ff4f7dde_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Element for item 'Avatar' does not exist (Failed to find item 'WealthingsRepository.WealthingsCom.Avatar'. No element found for path '/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]' within 1m.).
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   at Wealthings.ApplicationLogin.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs:line 105
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+							codefile="c:\Users\alex_\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\ApplicationLogin.cs"
+							codeline="105"
+							type="repoitem"
+							path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+							fullname="WealthingsRepository.WealthingsCom.Avatar"
+							id="fe021f4533284b37a70e949ae41c81c5"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="6">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

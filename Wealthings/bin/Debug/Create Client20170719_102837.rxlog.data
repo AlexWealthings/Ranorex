@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a387795641a3600"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="AxT"
+		host="AXT-VAIO"
+		rxversion="7.0.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="19/07/2017 10:28:44 AM"
+		timestampiso="2017-07-19T08:28:44"
+		timeoutfactor="1"
+		module="Create_Client">
+		<detail>
+			Create_Client
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.721"
+			timeRelativeToTestModuleStartTime="00:00.721"
+			timeWallClock="10:28:45"
+			time="00:00.721"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://test.wealthings.net/' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.904"
+			timeRelativeToTestModuleStartTime="00:00.904"
+			timeWallClock="10:28:45"
+			time="00:00.904"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.IconContacts' at 20;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//nav/ul/li[7]/?/?/i"
+				fullname="WealthingsRepository.WealthingsCom.Root.IconContacts"
+				id="ce1776fcc89e4511abd172c4e627215b"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.815"
+			timeRelativeToTestModuleStartTime="00:09.815"
+			timeWallClock="10:28:54"
+			time="00:09.815"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.AddNewContact' at 48;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div[2]/div/button/span/span[@innertext='add new contact']"
+				fullname="WealthingsRepository.WealthingsCom.Root.AddNewContact"
+				id="49dfc8c759eb4ec48d1403c864061710"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.274"
+			timeRelativeToTestModuleStartTime="00:13.274"
+			timeWallClock="10:28:57"
+			time="00:13.274"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.LastName' at 157;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div/input[@name='lastName']"
+				fullname="WealthingsRepository.WealthingsCom.Root.LastName"
+				id="5037e40cd95a4a778548cb094eb34af6"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.252"
+			timeRelativeToTestModuleStartTime="00:16.252"
+			timeWallClock="10:29:00"
+			time="00:16.252"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}N{LShiftKey up}ame{Space}1{Space}{LShiftKey down}C{LShiftKey up}Lient' with focus on 'WealthingsCom.Root.LastName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div/input[@name='lastName']"
+				fullname="WealthingsRepository.WealthingsCom.Root.LastName"
+				id="5037e40cd95a4a778548cb094eb34af6"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.731"
+			timeRelativeToTestModuleStartTime="00:19.731"
+			timeWallClock="10:29:04"
+			time="00:19.731"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.FirstName' at 144;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[3]/div/input[@name='firstName']"
+				fullname="WealthingsRepository.WealthingsCom.Root.FirstName"
+				id="e5d74daf49cf48d6bad590ed362fca02"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.503"
+			timeRelativeToTestModuleStartTime="00:22.503"
+			timeWallClock="10:29:07"
+			time="00:22.503"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}F{LShiftKey up}Is' with focus on 'WealthingsCom.Root.FirstName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[3]/div/input[@name='firstName']"
+				fullname="WealthingsRepository.WealthingsCom.Root.FirstName"
+				id="e5d74daf49cf48d6bad590ed362fca02"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.919"
+			timeRelativeToTestModuleStartTime="00:24.919"
+			timeWallClock="10:29:09"
+			time="00:24.919"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 't{Space}name{Space}client' with focus on 'WealthingsCom.Root.FirstName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[3]/div/input[@name='firstName']"
+				fullname="WealthingsRepository.WealthingsCom.Root.FirstName"
+				id="e5d74daf49cf48d6bad590ed362fca02"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.345"
+			timeRelativeToTestModuleStartTime="00:28.345"
+			timeWallClock="10:29:12"
+			time="00:28.345"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.ICheckHelper1' at 2;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[1]/div/div[1]/?/?/div/ins"
+				fullname="WealthingsRepository.WealthingsCom.Root.ICheckHelper1"
+				id="50407275a9134e7ba209e41ca22edfb2"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.049"
+			timeRelativeToTestModuleStartTime="00:31.049"
+			timeWallClock="10:29:15"
+			time="00:31.049"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WealthingsCom.Root.Save' at 12;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[2]/ul/li[1]//span[@innertext='Save']"
+				fullname="WealthingsRepository.WealthingsCom.Root.Save"
+				id="3759c89a61d74f35b018ae7145bdcccd"
+				timeout="90000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.836"
+			timeRelativeToTestModuleStartTime="00:33.836"
+			timeWallClock="10:29:18"
+			time="00:33.836"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating NotExists on item 'WealthingsCom.ErrorMsgPopup'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']/body/div[4]//p/?/?/span[@innertext~'^One\ or\ more\ entries\ you\ h']"
+				fullname="WealthingsRepository.WealthingsCom.ErrorMsgPopup"
+				id="efbd46f722574ff492de6dc9cfd90d01"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:34.571"
+			timeRelativeToTestModuleStartTime="01:34.571"
+			timeWallClock="10:30:19"
+			time="01:34.571"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'WealthingsRepository.WealthingsCom.ErrorMsgPopup' does not exist (Failed to find item 'WealthingsRepository.WealthingsCom.ErrorMsgPopup'. No element found for path '/dom[@domain='test.wealthings.net']/body/div[4]//p/?/?/span[@innertext~'^One\ or\ more\ entries\ you\ h']' within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='test.wealthings.net']/body/div[4]//p/?/?/span[@innertext~'^One\ or\ more\ entries\ you\ h']"
+				fullname="WealthingsRepository.WealthingsCom.ErrorMsgPopup"
+				id="efbd46f722574ff492de6dc9cfd90d01"
+				timeout="60000"
+				codefile="c:\Users\AxT\OneDrive\Documents\Ranorex\RanorexStudio Projects\Wealthings\Wealthings\Contact\Create_Client.cs"
+				codeline="123"
+				loglvl="Success"
+				itemindex="10">
+			</metainfo>
+		</item>
+	</activity>
+</report>
