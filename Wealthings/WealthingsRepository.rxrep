@@ -1,0 +1,209 @@
+﻿<repository
+id="6ddb74f1-60ca-4040-a683-462c46557be7"
+name="WealthingsRepository"
+rxversion="7.1">
+	<codegen
+	classname="WealthingsRepository"
+	namespace="Wealthings">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="02e42b9a-da80-404d-968d-14ea963e1f66"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="08bfb280-30cd-418d-a92a-aca8157e766b"
+		isrooted="True"
+		name="WealthingsCom"
+		refpath="/dom[@domain='test.wealthings.net']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="1091eb87-e93b-4300-9f8f-00e9dc8bbeab"
+			name="Email"
+			refimgid="90110f8a-6bc1-4601-a9a1-b94be16ac7e5"
+			refpath="/dom[@domain='test.wealthings.net']//input[#'email']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.wealthings.net']//input[#'email']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="efbd46f7-2257-4ff4-92de-6dc9cfd90d01"
+			name="ErrorMsgPopup"
+			refimgid="fd721509-8ad3-42b1-bb0f-0e98f119cadc"
+			refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings.com' and @page='contacts']/body/div[4]/div/div/div/p/span/span[@innertext='One or more entries you have made contain critical errors and cannot be saved']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.wealthings.net']/body/div[4]//p/?/?/span[@innertext~'^One\ or\ more\ entries\ you\ h']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="fe021f45-3328-4b37-a70e-949ae41c81c5"
+			name="Avatar"
+			refimgid="4b0cef4f-bbe7-43cc-b24f-4a850e6003e3"
+			refpath="/dom[@domain='test.wealthings.net']//div[#'root']/div/div/tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[1]
+			</item>
+			<folder
+			capname="divtag"
+			id="cb97547f-81cd-4663-a666-6923c046c7ac"
+			isrooted="True"
+			name="Root"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3759c89a-61d7-4f35-b018-ae7145bdcccd"
+				name="Save"
+				refimgid="4782a870-2f2e-470a-9acc-a0d36d6764bd"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings.com' and @page='contacts']//div[#'root']/div/div/tag[@tagname='main']/div/div[1]/div[2]/ul/li[1]/button/span/span[@innertext='Save']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[2]/ul/li[1]//span[@innertext='Save']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="49dfc8c7-59eb-4ec4-8d14-03c864061710"
+				name="AddNewContact"
+				refimgid="001970c9-2237-4a95-81b5-9e082d8f3c82"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings.com' and @page='contacts']//div[#'root']/div/div/tag[@tagname='main']/div/div[3]/div[2]/div/button/span/span[@innertext='add new contact']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div[2]/div/button/span/span[@innertext='add new contact']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="5037e40c-d95a-4a77-8548-cb094eb34af6"
+				name="LastName"
+				refimgid="11f03076-e192-4b65-96c8-a6b0d0313315"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings.com' and @page='contacts']//div[#'root']/div/div/tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div/input[@name='lastName']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div/input[@name='lastName']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="e5d74daf-49cf-48d6-bad5-90ed362fca02"
+				name="FirstName"
+				refimgid="9dfdf167-6744-41d0-8261-020ede91800e"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings.com' and @page='contacts']//div[#'root']/div/div/tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[3]/div/input[@name='firstName']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[2]/div/div[1]/div/div[3]/div/input[@name='firstName']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="6b500b47-cd88-443c-92ee-70591406182c"
+				name="Contacts"
+				refimgid="23ac48f5-4829-4122-ba07-8f904eca87d2"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//?/?/?/nav/?/?//span[@innertext='Contacts']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ccee3937-df72-426b-a16c-5b2b39487348"
+				name="OpenMenu"
+				refimgid="89c20ddc-62c8-400b-909d-46e8f1572871"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings' and @page='']//div[#'root']/div/div/header/div/a[@href='https://test.wealthings.net/']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//header/div/a[@href~'^https://test\.wealthings\.n']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="aa8c6111-4f33-4287-b779-9a7a10a63c11"
+				name="LogOut"
+				refimgid="3ed570d1-0b10-444e-8693-5f2a5b06c75d"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings' and @page='']//div[#'root']/div/div/tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]/a/span[@innertext='Log out']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]/a[@href~'^http://test\.wealthings\.ne']/span[@innertext='Log out']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="60418c0b-5d01-4ff7-bb8d-4eebd0f3c907"
+				name="SignIn"
+				refimgid="9a2c746d-bc49-43c6-afa5-b2f347604402"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings' and @page='login']//div[#'root']/div/div/div/div[1]/form[@method='get']/strong/span[@innertext='Sign In']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//form[@method='get']/strong/span[@innertext='Sign In']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="e4d8253d-8268-445a-b516-aaedfc8d57ce"
+				name="Opener"
+				refimgid="0f38894a-303f-4ff0-84bb-7a4602b1a38e"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings' and @page='']//div[#'root']/div/div/header/div/nav/ul/li[5]/a[@href='https://test.wealthings.net/']/span[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//nav/ul/li[5]/a/span[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="ce1776fc-c89e-4511-abd1-72c4e627215b"
+				name="IconContacts"
+				refimgid="cc3af687-072b-4a94-bb3d-6ef78ffa8732"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings' and @page='']//div[#'root']/div/div/header/div/nav/ul/li[7]/a/i"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//nav/ul/li[7]/?/?/i
+				</item>
+				<item
+				addcaps="unknown,webelement,instag"
+				capname="instag"
+				id="1ffa183f-226f-4771-83a4-781d204669db"
+				name="ICheckHelper"
+				refimgid="254f1d16-5511-4202-936b-0d394bf20596"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings' and @page='contacts']//div[#'root']/div/div/tag[@tagname='main']/div/div[3]/div/div[2]/div/div[1]/div/div[2]/label/div/ins"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[1]/div/div[2]/?/?/div/ins
+				</item>
+				<item
+				addcaps="unknown,webelement,instag"
+				capname="instag"
+				id="50407275-a913-4e7b-a209-e41ca22edfb2"
+				name="ICheckHelper1"
+				refimgid="d01d281e-0eef-46c4-9be3-cad567491c5a"
+				refpath="/dom[@domain='test.wealthings.net' and @caption='Wealthings' and @page='contacts']//div[#'root']/div/div/tag[@tagname='main']/div/div[3]/div/div[2]/div/div[1]/div/div[1]/label/div/ins"
+				searchtimeout="30000ms">
+					/dom[@domain='test.wealthings.net']//div[#'root']//tag[@tagname='main']/div/div[3]/div/div[2]/div/div[1]/div/div[1]/?/?/div/ins
+				</item>
+				<basepath>
+					/dom[@domain='test.wealthings.net']//div[#'root']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='test.wealthings.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

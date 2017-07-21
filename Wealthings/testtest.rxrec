@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7b724f60-f54e-4004-910d-e5daad6ea0a7"
+mode="Global"
+rxversion="7.1">
+	<name>
+		testtest
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="testtest"
+	namespace="Wealthings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="6ddb74f1-60ca-4040-a683-462c46557be7"
+	name="WealthingsRepository"
+	relativepath="WealthingsRepository.rxrep"
+	rxversion="7.1">
+		<codegen
+		classname="WealthingsRepository"
+		namespace="Wealthings">
+		</codegen>
+		<rootfolder
+		id="02e42b9a-da80-404d-968d-14ea963e1f66"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		testtest.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
