@@ -150,18 +150,6 @@
     <Compile Include="RandomGenerate.cs">
       <id>2600c472-f14f-4ae7-b2c8-e569920db524</id>
     </Compile>
-    <Compile Include="testtest.cs">
-      <BoundTo>c8562664-e9ad-43fe-bbb5-1980d0ff0e9e</BoundTo>
-      <DependentUpon>testtest.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>81afcc31-cd94-4ed6-ba1f-22dcd25030bd</id>
-    </Compile>
-    <Compile Include="testtest.UserCode.cs">
-      <BoundTo>c8562664-e9ad-43fe-bbb5-1980d0ff0e9e</BoundTo>
-      <DependentUpon>testtest.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>3596aa42-cfc8-4248-8a7d-38305d7dd369</id>
-    </Compile>
     <Compile Include="WealthingsRepository.cs">
       <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
       <DependentUpon>WealthingsRepository.rxrep</DependentUpon>
@@ -202,11 +190,6 @@
       <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
       <id>1e06b64d-1a8a-44c9-956a-c52ae12d620b</id>
       <recordtableid>dd7dcac1-4f61-477f-9fca-659eb366e9a9</recordtableid>
-    </None>
-    <None Include="testtest.rxrec">
-      <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
-      <id>c8562664-e9ad-43fe-bbb5-1980d0ff0e9e</id>
-      <recordtableid>7b724f60-f54e-4004-910d-e5daad6ea0a7</recordtableid>
     </None>
     <None Include="WealthingsRepository.rximg">
       <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
