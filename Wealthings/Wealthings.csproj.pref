@@ -1,17 +1,16 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="testtest.rxrec" />
+    <Element value="ApplicationLogin.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="ApplicationLogin.rxrec" />
-    <Element value="Login.rxrec" />
     <Element value="WealthingsRepository.rxrep" />
+    <Element value="Login.rxrec" />
     <Element value="Wealthings.rxtst" />
     <Element value="Logout.rxrec" />
     <Element value="Contact\CreateContact.rxrec" />
     <Element value="RandomGenerate.cs" />
-    <Element value="testtest.rxrec" />
     <Element value="Contact\Test.rxrec" />
     <Element value="Contact\Create Client.rxrec" />
   </Array>

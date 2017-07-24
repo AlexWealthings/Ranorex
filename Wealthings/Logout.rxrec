@@ -30,7 +30,7 @@ rxversion="7.1">
 	</variables>
 	<recorditems>
 		<keysequenceitem
-		KeySequence="{F6}http://test.wealthings.net/logout{Return}"
+		KeySequence="{F6}https://test.wealthings.net/logout{Return}"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -266,7 +266,7 @@ oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 	id="6ddb74f1-60ca-4040-a683-462c46557be7"
 	name="WealthingsRepository"
 	relativepath="WealthingsRepository.rxrep"
-	rxversion="7.0">
+	rxversion="7.1">
 		<codegen
 		classname="WealthingsRepository"
 		namespace="Wealthings">

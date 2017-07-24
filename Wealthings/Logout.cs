@@ -79,8 +79,8 @@ namespace Wealthings
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F6}http://test.wealthings.net/logout{Return}'.", new RecordItemIndex(0));
-            Keyboard.Press("{F6}http://test.wealthings.net/logout{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F6}https://test.wealthings.net/logout{Return}'.", new RecordItemIndex(0));
+            Keyboard.Press("{F6}https://test.wealthings.net/logout{Return}");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'WealthingsCom.Root.SignIn'.", repo.WealthingsCom.Root.SignInInfo, new RecordItemIndex(1));
