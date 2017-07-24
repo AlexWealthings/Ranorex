@@ -108,18 +108,6 @@
       <UserCode>true</UserCode>
       <id>f62d78c6-daf1-4f42-b077-c5132d4aac08</id>
     </Compile>
-    <Compile Include="Contact\Test.cs">
-      <BoundTo>91a49b56-a011-4e91-b738-ded858301beb</BoundTo>
-      <DependentUpon>Test.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>d74a9dca-1132-4754-8872-dff4ccd09f63</id>
-    </Compile>
-    <Compile Include="Contact\Test.UserCode.cs">
-      <BoundTo>91a49b56-a011-4e91-b738-ded858301beb</BoundTo>
-      <DependentUpon>Test.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>040e79c2-86a8-4336-b4f7-1418688b6f8b</id>
-    </Compile>
     <Compile Include="Logout.cs">
       <BoundTo>1e06b64d-1a8a-44c9-956a-c52ae12d620b</BoundTo>
       <DependentUpon>Logout.rxrec</DependentUpon>
@@ -134,18 +122,6 @@
     </Compile>
     <Compile Include="Program.cs">
       <id>b424fbfd-7dd7-4c00-a287-16a468c5943e</id>
-    </Compile>
-    <Compile Include="Login.cs">
-      <BoundTo>811cbd70-646d-4bbc-bb93-b1b8983afcce</BoundTo>
-      <DependentUpon>Login.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>dae0a91d-00cd-4b3a-b760-fce2302328cc</id>
-    </Compile>
-    <Compile Include="Login.UserCode.cs">
-      <BoundTo>811cbd70-646d-4bbc-bb93-b1b8983afcce</BoundTo>
-      <DependentUpon>Login.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>9c628ebd-15bf-44ae-95ed-d400dede22d1</id>
     </Compile>
     <Compile Include="RandomGenerate.cs">
       <id>2600c472-f14f-4ae7-b2c8-e569920db524</id>
@@ -175,16 +151,6 @@
       <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
       <id>ca2d809f-4218-4f80-a358-c92fe74f2b48</id>
       <recordtableid>fcce9d5c-5976-4d6f-bb09-ac542a08871a</recordtableid>
-    </None>
-    <None Include="Contact\Test.rxrec">
-      <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
-      <id>91a49b56-a011-4e91-b738-ded858301beb</id>
-      <recordtableid>6426ee8e-93ab-4276-b287-5081f876a523</recordtableid>
-    </None>
-    <None Include="Login.rxrec">
-      <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
-      <id>811cbd70-646d-4bbc-bb93-b1b8983afcce</id>
-      <recordtableid>41e354a2-a341-43c4-9d56-f4d0c976ed8e</recordtableid>
     </None>
     <None Include="Logout.rxrec">
       <BoundTo>89485897-49e9-4b7f-99cc-013eb0c42c40</BoundTo>
